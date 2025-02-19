@@ -31,8 +31,8 @@ depends: [
   "virtual_dom"                 {= "v0.18~preview.130.05+548"}
   "virtual_dom_toplayer"        {= "v0.18~preview.130.05+548"}
   "dune"                        {>= "3.11.0"}
-  "js_of_ocaml"                 {>= "5.1.1" & < "5.7.0"}
-  "js_of_ocaml-ppx"             {>= "5.1.1" & < "5.7.0"}
+  "js_of_ocaml"                 {>= "5.1.1" & < "5.8.0"}
+  "js_of_ocaml-ppx"             {>= "5.1.1" & < "5.8.0"}
   "uri"                         {>= "3.0.0"}
 ]
 available: arch != "arm32" & arch != "x86_32"
